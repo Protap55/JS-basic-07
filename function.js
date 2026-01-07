@@ -3,8 +3,16 @@
 // }
 // life();
 
-function sum(num1, num2) {
-  let add = num1 + num2;
-  return console.log(add);
+// function sum(num1, num2) {
+//   let add = num1 + num2;
+//   return console.log(add);
+// }
+// sum(1, 5);
+
+function number(num1, num2) {
+  let sum = num1 + num2;
+  return sum;
 }
-sum(1, 5);
+
+let ps = number(1, 55);
+console.log(ps);
